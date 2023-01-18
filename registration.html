@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+    <header>
+        <h1>RemGlobal <span style="color:#111; font-weight: 600;">Motors</span></h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+        <button style="display: none;"><a href="registration.html">Register</a></button>
+    </header>
+    <div class="form_container">
+        <div class="form_title">
+            Registration Form
+        </div>
+        <div class="form">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <input class="input_field" type="text" placeholder="First Name" Required>
+                <input class="input_field" type="text" placeholder="Middle Name" Required>
+                <input class="input_field" type="text" placeholder="Surame" Required><br>
+                <input class="input_field" type="text" name="" placeholder="Phone Number">
+                <input class="input_field perm" type="text" name="" placeholder="Permanent Address"><br>
+                <label for="Gender" class="gender">Gender:</label>
+                    <input class="gender_input" type="radio" name="Gender" checked> Male 
+                    <input class="gender_input" type="radio" name="Gender"> Female
+                <label class="birth" for="dob">Date of Birth:</label>
+                    <input class="input_field" type="date">
+            </fieldset>
+            <fieldset>
+                <legend>Car Details</legend>
+                <div class="car_info">
+                    <label>Vehicle Manufacturer:</label>
+                    <select name="" id="">
+                        <option value="">Select</option>
+                        <option value="Benz">Mercedez Benz</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="bmw">BMW</option>
+                        <option value="tesla">Tesla</option>
+                        <option value="Honda">Honda</option>
+                        <option value="Peugeot">Peogeot</option>
+                        <option value="Volks">Volks Wagen</option>
+                        <option value="kia">KIA</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <input class="input_field" type="text" name="" placeholder="Vehicle Model/Type">
+                <input class="input_field vehicle" type="text" name="" id="" placeholder="Vehicle Color">
+                <div class="year_bought">
+                    <label class="birth bought" for="year">Year Bought</label>
+                    <input class="input_field" type="date">
+                </div>
+                <textarea name="complaints/enqueries" id="" cols="115" rows="10" placeholder="Enter complaints/Enquries"></textarea>
+            </fieldset>
+            <a href="index.html"><input class="form_btn" type="Submit" name="" value="Register"></a>
+        </div>
+
+    </div>
+        <footer>
+            <div class="s-media">
+                <div>
+                    <i class="fa fbook fa-facebook-square"></i>
+                    <i class="fa twtter fa-twitter-square"></i>
+                    <i class="fa lnkedin fa-linkedin-square"></i>
+                </div>
+            </div>
+            <hr>
+            <p>© Copyright 2023</p>
+        </footer>
+</body>
+</html>
