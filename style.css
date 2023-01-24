@@ -157,7 +157,7 @@ footer p{
 }
 /* REGISTRATION FORM */
 .form_container{
-    width: 65%;
+    width: 60%;
     background-color: whitesmoke;
     margin: 20px auto;
     padding: 30px;
@@ -172,7 +172,6 @@ footer p{
 fieldset legend{
     font-size: 20px;
     padding: 14px 0 5px;
-   
 }
 .form .input_field{
     width: 250px;
@@ -180,7 +179,7 @@ fieldset legend{
     border: 1px solid #555;
     border-radius: 3px;
     padding: 12px 10px;
-    margin: 10px 11px;
+    margin: 10px 5px;
 }
 .form .perm{
     width: 547px;
