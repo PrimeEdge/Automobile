@@ -245,17 +245,17 @@ textarea{
 @media (max-width: 740px){
 
     header h1{
-        font-size: 16px;
+        font-size: 18px;
     }
     ul{
         display: none;
     }
     .btn{
         font-size: 18px;
-        padding: 6px 14px;  
+        padding: 5px 12px;  
     }
     .main{
-        height: 230vh;
+        height: 235vh;
     }
     .nav{
         position: fixed;
