@@ -42,7 +42,7 @@ ul li a:hover{
     transition:  all 0.5s ease-out;
 }
 .btn:hover{
-    background-color: #c23d3d;
+    background-color: #af4040;
 }
 /* MAIN SECTION */
 .main{
@@ -54,9 +54,11 @@ ul li a:hover{
 .side_bar{
     width: 10%;
     margin-top: 6rem;
+    position: relative;
 }
 .nav{
     display: grid;
+    position: fixed;
 }
 .nav a{
     font-size: 22px;
@@ -136,7 +138,7 @@ footer p{
 /* GALLERY PAGE */
 .container{
     width: 100%;
-    height: 1350px;
+    height: 65rem;
 }
 .container h1{
     text-align: center;
@@ -145,18 +147,17 @@ footer p{
 .container_card{
     width: 98%;
     display: flex;
-   justify-content: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .container_card img{
     margin: 30px 10px 5px 40px;
     width: 300px;
-    height: 200;
+    height: 200px;
 }
 /* REGISTRATION FORM */
 .form_container{
-    max-width: 860px;
-    width: 100%;
+    width: 60%;
     background-color: whitesmoke;
     margin: 20px auto;
     padding: 30px;
@@ -170,27 +171,27 @@ footer p{
 }
 fieldset legend{
     font-size: 20px;
-    margin: 5px 5px 10px;
+    padding: 14px 0 5px;
+   
 }
 .form .input_field{
     width: 250px;
     font-size: 16px;
-    outline: none;
     border: 1px solid #555;
     border-radius: 3px;
-    padding: 8px 10px;
-    margin: 10px 5px;
+    padding: 12px 10px;
+    margin: 10px 11px;
 }
 .form .perm{
-    width: 535px;
+    width: 547px;
 }
 .form .gender{
-    margin-left: 10px;
+    margin-left: 12px;
     font-size: 20px;
-    color: #555;
+    color: rgb(41, 39, 39);
 }
 .gender_input{
-    margin-left: 25px;
+    margin-left: 30px;
 }
 .birth{
     margin-left: 25px;
@@ -206,30 +207,30 @@ fieldset legend{
 .car_info select{
     width: 250px;
     font-size: 16px;
-    padding: 5px 10px;
+    padding: 12px 10px;
     border-radius: 5px;
-    margin-bottom: 15px;
 }
 .vehicle{
-    margin-left: 45px;
+    margin-left: 5px;
 }
 .year_bought{
     display: inline;
 }
 textarea{
-    resize: none;
-    margin: 10px 10px;
+    width: 95%;
+    margin:10px;
     font-size: 14px;
-    padding: 8px;   
+    padding: 10px;  
+    resize: none; 
 }
 .form .input_field:focus{
     outline-offset: -6px;
-    color: #555;
+    color: rgb(57, 56, 56);
 }
 .form_btn{
     margin: 10px 0;
     width: 120px;
-    height: 25px;
+    height: 35px;
     font-size: 16px;
     border: none;
     background-color: #4a84aa;
@@ -241,7 +242,7 @@ textarea{
     background-color: #7799af;
 }
 
-@media (max-width: 768px){
+@media (max-width: 740px){
 
     header h1{
         font-size: 16px;
@@ -251,10 +252,10 @@ textarea{
     }
     .btn{
         font-size: 18px;
-        padding: 8px 16px;  
+        padding: 6px 14px;  
     }
     .main{
-        height: 195vh;
+        height: 230vh;
     }
     .nav{
         position: fixed;
@@ -286,17 +287,41 @@ textarea{
         margin-left: 20px;
     }
     footer{
-        height: 200px;
+        height: 150px;
     }
     .s-media .fa{
         font-size: 25px;
-        margin: 30px;
+        margin: 20px;
     }
     footer hr{
         width: 95%;
         height: 1px;
-        margin-top: 30px;
+        margin-top: 10px;
      } 
+/* GALLERY PAGE */
+    .container{
+        height: 38rem;
+    }
+    .container_card img{
+    margin: 20px 10px 5px 10px;
+    width: 80px;
+    height: 80px;
+    }
+/* REGISTRATION FORM */
+    .form_container{
+    width: 70%;
+    margin: 10px auto;
+    padding: 30px;
+    }
+    fieldset legend{
+        font-size: 16px;
+    }
+    .form .input_field{
+        width: 80px;
+        font-size: 14px;
+        padding: 4px 8px;
+        margin: 10px 15px;
+    }
 }
 
 
